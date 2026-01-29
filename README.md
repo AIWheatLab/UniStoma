@@ -10,9 +10,9 @@
 
 <a name="english-documentation"></a>
 
-## 🇬🇧 English Documentation
+## English Documentation
 
-**UniStoma (Stoma Analyzer Pro)** is an automated, deep-learning-based software designed for the high-throughput analysis of plant stomatal phenotypes. Built upon the **MMSegmentation** framework and **PyQt5**, it offers precision segmentation of stomata and pores, coupled with comprehensive morphological and spatial statistical analysis.
+**UniStomaExtraction** is an automated, deep-learning-based software designed for the high-throughput analysis of plant stomatal phenotypes. Built upon the **MMSegmentation** framework and **PyQt5**, it offers precision segmentation of stomata and pores, coupled with comprehensive morphological and spatial statistical analysis.
 
 ### ✨ Key Features
 
@@ -70,9 +70,9 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 <a name="中文说明"></a>
 
-## 🇨🇳 中文说明
+## 中文说明
 
-**UniStoma (Stoma Analyzer Pro)** 是一款基于深度学习的植物气孔表型高通量分析工具。它集成了 **MMSegmentation** 算法框架与 **PyQt5** 图形界面，旨在为研究人员提供精确的气孔与气孔开口（Pore）分割，以及全自动的形态学与空间分布分析。
+**UniStomaExtraction** 是一款基于深度学习的植物气孔表型高通量分析工具。它集成了 **MMSegmentation** 算法框架与 **PyQt5** 图形界面，旨在为研究人员提供精确的气孔与气孔开口（Pore）分割，以及全自动的形态学与空间分布分析。
 
 ### ✨ 核心功能
 
