@@ -40,11 +40,9 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 > **Note:** The package includes trained model weights and configuration. Just download, extract, and run.
 
-<div align="center">
 <a href="[https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link](https://www.google.com/search?q=https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view%3Fusp%3Ddrive_link)" target="_blank">
-<img src="[https://img.shields.io/badge/Download_UniStoma_V17.7-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Download_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
+<img src="[https://img.shields.io/badge/Download_UniStomaExtraction-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Download_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
 </a>
-</div>
 
 ---
 
@@ -100,11 +98,9 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 > **注意:** 下载包中已包含训练好的模型权重和配置文件，解压即用。
 
-<div align="center">
 <a href="[https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link](https://www.google.com/search?q=https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view%3Fusp%3Ddrive_link)" target="_blank">
-<img src="[https://img.shields.io/badge/下载_UniStoma_V17.7-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
+<img src="[https://img.shields.io/badge/下载_UniStomaExtraction-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
 </a>
-</div>
 
 ---
 
