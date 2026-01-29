@@ -124,19 +124,4 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 5. **👁️‍🗨️ 实时预览**: 在主界面选择图片后，通过下拉菜单 (`5. Visualization`) 即可实时查看该图片的雷达图、玫瑰图或 Voronoi 图。
 
----
-
-### ⚠️ Citation / 引用
-
-If you use UniStoma in your research, please consider citing our work:
-(如果您在研究中使用了 UniStoma，请考虑引用我们的工作：)
-
-> [Insert Citation Here if applicable, otherwise remove this section]
-
----
-
-<div align="center">
-
-**Author**: [Your Name/Lab Name] | **Contact**: [Your Email]
-
 </div>
