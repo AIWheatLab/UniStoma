@@ -1,109 +1,82 @@
-# UniStomaExtraction: High-Throughput Stomatal Phenotyping Tool
+# UniStoma
 
-# UniStomaExtraction: 高通量气孔表型分析工具
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/Deep%20Learning-PyTorch%20%26%20MMSeg-orange)
+![PyQt5](https://img.shields.io/badge/GUI-PyQt5-green?logo=qt&logoColor=white)
+![Platform](https://img.shields.io/badge/Platform-Windows-0078D6?logo=windows&logoColor=white)
 
-[English](#english) | [中文说明](#chinese)
+[English](#english) | [中文](#chinese)
+
+---
 
 <a name="english"></a>
+## 🔬 UniStomaExtraction: High-Throughput Stomatal Phenotyping Tool
 
-## English Documentation
+**UniStomaExtraction** is an automated software designed for the high-throughput analysis of plant stomatal phenotypes. It integrates Deep Learning (**MMSegmentation/PyTorch**) for precise segmentation and provides a comprehensive statistical pipeline for morphological and spatial analysis.
 
-**UniStomaExtraction** is an automated, deep-learning-based software designed for the high-throughput analysis of plant stomatal phenotypes. Built upon the **MMSegmentation** framework and **PyQt5**, it offers precision segmentation of stomata and pores, coupled with comprehensive morphological and spatial statistical analysis.
+> **Note:** This is a closed-source compiled application. We provide a ready-to-use executable for Windows.
 
 ### ✨ Key Features
 
-| Feature Categories | Description |
-| --- | --- |
-| **🧠 Deep Learning Core** | Integrated PyTorch & OpenMMLab algorithms for robust segmentation of stomata and pores. |
-| **🚀 Batch Processing** | One-click batch analysis for hundreds of images, exporting results to Excel automatically. |
-| **📏 Comprehensive Phenotyping** | • **Morphological**: Area, Perimeter, Length, Width, Circularity, Eccentricity, Aspect Ratio.<br>
+| Feature Category | Description |
+| :--- | :--- |
+| **🧠 Deep Learning Core** | Integrated **PyTorch** & **OpenMMLab** algorithms for robust segmentation of stomata and pores. |
+| **🚀 Batch Processing** | One-click batch analysis for hundreds of images, automatically exporting results to Excel (`.xlsx`). |
+| **📏 Phenotyping** | • **Morphological**: Area, Perimeter, Length, Width, Circularity, Eccentricity.<br>• **Functional**: Stomatal Opening Degree, Pore Area, Guard Cell Metrics.<br>• **Population**: Stomatal Density, **SPI** (Stomatal Pore Index). |
+| **🌐 Spatial Analysis** | • **Voronoi Diagrams**: Visualization of stomatal distribution homogeneity.<br>• **Topology Network**: Nearest neighbor connections.<br>• **Charts**: Radar & Rose charts for multi-dimensional metric visualization. |
+| **🖥️ GUI** | User-friendly interface built with **PyQt5** for visual validation and interaction. |
 
-<br>• **Functional**: Stomatal Opening Degree, Pore Area, Guard Cell Metrics.<br>
+### 📥 Download
 
-<br>• **Population**: Stomatal Density, SPI (Stomatal Pore Index), Orientation Consistency. |
-| **🌐 Spatial Analysis** | • **Voronoi Diagrams**: Visualization of stomatal distribution homogeneity.<br>
+We provide a packaged executable for Windows users. The package includes trained model weights and configuration files.
 
-<br>• **Topology Network**: Nearest neighbor connections.<br>
+* **Download Link:** [UniStomaExtraction (Google Drive)](https://drive.google.com/file/d/1erKMNXsbGSvgw0q7cJ549pt9J7HxwnGu/view?usp=drive_link)
 
-<br>• **Radar/Rose Charts**: Multi-dimensional metric visualization and orientation distribution. |
-| **🖥️ Interactive GUI** | Visual validation, mask color customization, and instant chart preview. |
+### 🚀 Quick Start
 
+1.  **Download & Extract**: Download the zip file from the link above and extract it to a local folder.
+2.  **Run Application**: Double-click `UniStoma.exe` (or `main.exe` depending on the package name) to launch the GUI.
+3.  **Workflow**:
+    * **Step 1 (Load)**: Click **"1. Open Image Dir"** to select the folder containing your microscopic images.
+    * **Step 2 (Settings)**: (Optional) Adjust **"2. Appearance"** or **"3. Pre-processing"** filters (Border/Small object filtering).
+    * **Step 3 (Run)**: Click **"4. Batch Analysis"**, select an output directory, and wait for completion.
+    * **Step 4 (Visualize)**: Select an image from the bottom list, then use the **"5. Visualization"** dropdown to view Radar, Rose, or Voronoi charts.
 
-### 📥 Download & Installation
+---
 
-We provide a packaged executable for Windows users. No complex Python environment setup is required.
+<br>
 
-> **Note:** The package includes trained model weights and configuration. Just download, extract, and run.
-
-<a href="[https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link](https://www.google.com/search?q=https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view%3Fusp%3Ddrive_link)" target="_blank">👉 Click Here to Download UniStomaExtraction
-</a>
-
-
-### 🛠 Usage Guide
-
-1. **📂 Open Image Directory**: Click `1. Open Image Dir` to select the folder containing your microscopic images (`.jpg`, `.png`, `.tif`).
-2. **⚙️ Configuration (Optional)**:
-* **Appearance**: Customize mask colors for stomata/pores.
-* **Pre-processing**: Toggle "Filter Border" (ignore incomplete stomata at edges) or "Filter Small" (remove noise).
-
-
-3. **▶️ Batch Analysis**: Click `4. Batch Analysis`, select an output folder, and wait for the process to finish.
-4. **📊 Result Inspection**:
-* **Visuals**: Check the `masks`, `overlays`, and `charts` folders in your output directory.
-* **Data**: Open `batch_individual.xlsx` (per-stoma data) and `batch_summary.xlsx` (per-image statistics).
-
-
-5. **👁️‍🗨️ Preview**: Use the GUI to view overlays or select charts (Radar, Rose, Voronoi) from the dropdown menu for the current image.
-
+---
 
 <a name="chinese"></a>
+## 🔬 UniStomaExtraction: 高通量气孔表型分析工具
 
-## 中文说明
+**UniStomaExtraction** 是一款专为植物气孔表型研究设计的自动化分析软件。它集成了深度学习（**MMSegmentation/PyTorch**）算法以实现高精度分割，并提供了一套完整的形态学与空间分布统计分析流程。
 
-**UniStomaExtraction** 是一款基于深度学习的植物气孔表型高通量分析工具。它集成了 **MMSegmentation** 算法框架与 **PyQt5** 图形界面，旨在为研究人员提供精确的气孔与气孔开口（Pore）分割，以及全自动的形态学与空间分布分析。
+> **注意：** 本软件为闭源桌面应用程序，我们为 Windows 用户提供开箱即用的可执行文件。
 
-### ✨ 核心功能
+### ✨ 主要功能
 
 | 功能类别 | 描述 |
-| --- | --- |
-| **🧠 深度学习内核** | 内置 PyTorch & OpenMMLab 核心组件，实现气孔与气孔开口的高精度分割。 |
-| **🚀 批量处理** | 支持一键处理文件夹内所有图片，自动生成标注图（Overlay）并导出 Excel 数据表。 |
-| **📏 全维度表型指标** | • **形态指标**: 面积、周长、长/宽、圆度、偏心率、等效直径等。<br>
+| :--- | :--- |
+| **🧠 深度学习内核** | 内置 **PyTorch** & **OpenMMLab** 核心组件，实现气孔与气孔开口的高精度分割。 |
+| **🚀 批量处理** | 支持一键处理文件夹内所有图片，自动生成标注图并导出 Excel 数据表 (`.xlsx`)。 |
+| **📏 全维度表型** | • **形态指标**: 面积、周长、长/宽、圆度、偏心率等。<br>• **功能指标**: 气孔开口度 (Opening Degree)、保卫细胞面积、气孔开口指数 (SPI)。<br>• **群体指标**: 气孔密度 (Density)、排列一致性。 |
+| **🌐 空间拓扑分析** | • **Voronoi 图**: 用于分析气孔分布的均匀性。<br>• **拓扑网络**: 可视化最近邻气孔连接关系。<br>• **图表可视化**: 提供雷达图与玫瑰图，展示多维数据与角度分布。 |
+| **🖥️ 图形界面** | 基于 **PyQt5** 构建的交互式界面，支持实时预览与结果验证。 |
 
-<br>• **功能指标**: 气孔开口度 (Opening Degree)、保卫细胞面积、气孔开口指数 (SPI)。<br>
+### 📥 软件下载
 
-<br>• **群体指标**: 气孔密度 (Density)、排列一致性、最近邻距离。 |
-| **🌐 空间拓扑分析** | • **Voronoi 图**: 用于分析气孔分布的均匀性。<br>
+我们提供了打包好的 Windows 可执行程序，下载包中已包含训练好的模型权重和配置文件，无需配置 Python 环境。
 
-<br>• **拓扑网络**: 可视化最近邻气孔连接。<br>
+* **下载链接:** [UniStomaExtraction (Google Drive)](https://drive.google.com/file/d/1erKMNXsbGSvgw0q7cJ549pt9J7HxwnGu/view?usp=drive_link)
 
-<br>• **雷达图与玫瑰图**: 多维数据展示与气孔角度分布分析。 |
-| **🖥️ 交互式 GUI** | 支持缩略图导航、遮罩颜色自定义及实时图表预览。 |
+### 🚀 使用教程
 
-
-### 📥 下载与安装
-
-我们为 Windows 用户提供了打包好的可执行程序，无需配置复杂的 Python 环境即可直接使用。
-
-> **注意:** 下载包中已包含训练好的模型权重和配置文件，解压即用。
-
-<a href="[https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link](https://www.google.com/search?q=https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view%3Fusp%3Ddrive_link)" target="_blank">👉 点击此处下载 UniStomaExtraction
-</a>
-
-
-### 🛠 使用指南
-
-1. **📂 导入图片**: 点击界面左上角的 `1. Open Image Dir` 选择包含显微照片的文件夹。
-2. **⚙️ 参数设置 (可选)**:
-* **外观**: 自定义气孔和气孔开口的遮罩颜色。
-* **预处理**: 建议勾选 "Filter Border" (过滤边缘不完整气孔) 和 "Filter Small" (过滤噪点)。
-
-
-3. **▶️ 批量分析**: 点击 `4. Batch Analysis`，选择结果保存路径，程序将自动运行。
-4. **📊 查看结果**:
-* **可视化**: 在输出目录中查看 `masks` (掩膜), `overlays` (叠加图), `charts` (统计图表)。
-* **数据**: 打开 `batch_individual.xlsx` (单气孔数据) 和 `batch_summary.xlsx` (单图统计汇总)。
-
-
-5. **👁️‍🗨️ 实时预览**: 在主界面选择图片后，通过下拉菜单 (`5. Visualization`) 即可实时查看该图片的雷达图、玫瑰图或 Voronoi 图。
-
+1.  **下载与解压**: 点击上方链接下载压缩包，并解压到本地文件夹。
+2.  **启动程序**: 双击运行文件夹中的 `UniStoma.exe` (或 `main.exe`)。
+3.  **操作流程**:
+    * **Step 1 (导入)**: 点击左上角 **"1. Open Image Dir"** 选择包含显微照片的文件夹。
+    * **Step 2 (设置)**: (可选) 通过 **"2. Appearance"** 调整颜色，或在 **"3. Pre-processing"** 中勾选过滤选项（过滤边缘/噪点）。
+    * **Step 3 (运行)**: 点击 **"4. Batch Analysis"**，选择结果保存路径，程序将自动开始批量处理。
+    * **Step 4 (可视化)**: 在底部缩略图栏选择图片，使用 **"5. Visualization"** 下拉菜单实时查看雷达图、玫瑰图或 Voronoi 图。
