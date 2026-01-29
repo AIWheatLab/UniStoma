@@ -4,10 +4,6 @@
 
 [English](#english) | [中文说明](#chinese)
 
-</div>
-
----
-
 <a name="english"></a>
 
 ## English Documentation
@@ -85,7 +81,6 @@ We provide a packaged executable for Windows users. No complex Python environmen
 <br>• **雷达图与玫瑰图**: 多维数据展示与气孔角度分布分析。 |
 | **🖥️ 交互式 GUI** | 支持缩略图导航、遮罩颜色自定义及实时图表预览。 |
 
----
 
 ### 📥 下载与安装
 
@@ -97,7 +92,6 @@ We provide a packaged executable for Windows users. No complex Python environmen
 <img src="[https://img.shields.io/badge/下载_UniStomaExtraction-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/%E4%B8%8B%E8%BD%BD_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
 </a>
 
----
 
 ### 🛠 使用指南
 
@@ -115,4 +109,3 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 5. **👁️‍🗨️ 实时预览**: 在主界面选择图片后，通过下拉菜单 (`5. Visualization`) 即可实时查看该图片的雷达图、玫瑰图或 Voronoi 图。
 
-</div>
