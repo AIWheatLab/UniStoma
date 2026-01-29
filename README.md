@@ -2,13 +2,13 @@
 
 # UniStomaExtraction: 高通量气孔表型分析工具
 
-[English](https://www.google.com/search?q=%23english-documentation) | [中文说明](https://www.google.com/search?q=%23%E4%B8%AD%E6%96%87%E8%AF%B4%E6%98%8E)
+[English](english) | [中文说明](中文说明)
 
 </div>
 
 ---
 
-<a name="english-documentation"></a>
+<a name="english"></a>
 
 ## English Documentation
 
