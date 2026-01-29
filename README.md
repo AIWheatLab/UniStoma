@@ -1,7 +1,13 @@
+UniStoma: High-Throughput Stomatal Phenotyping Tool
+UniStoma: 高通量气孔表型分析工具 (V17.7)
+English | 中文说明
+
 <a name="english-documentation"></a>
 
 🇬🇧 English Documentation
-UniStoma (Stoma Analyzer Pro) is an automated, deep-learning-based software designed for the high-throughput analysis of plant stomatal phenotypes. Built upon the MMSegmentation framework and PyQt5, it offers precision segmentation of stomata and pores, coupled with comprehensive morphological and spatial statistical analysis.
+UniStomaExtraction is an automated, deep-learning-based software designed for the high-throughput analysis of plant stomatal phenotypes. Built upon the MMSegmentation framework and PyQt5, it offers precision segmentation of stomata and pores, coupled with comprehensive morphological and spatial statistical analysis.
+
+This version includes critical stability fixes and logic optimizations.
 
 ✨ Key Features
 Deep Learning Core: Integrated PyTorch & OpenMMLab algorithms for robust segmentation of stomata and pores.
@@ -29,9 +35,9 @@ Interactive GUI: Visual validation, mask color customization, and instant chart 
 📥 Download & Installation
 We provide a packaged executable for Windows users, eliminating the need to configure Python environments.
 
-Download Link (Google Drive): 👉 Click Here to Download UniStoma V17.7
+Download Link (Google Drive): 👉 [Click Here to Download UniStomaExtraction](https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link)
 
-Note: The downloadable package includes the trained model weights (best_model.pth) and configuration. No extra setup is required.
+Note: The downloadable package includes the trained model weights and configuration. No extra setup is required.
 
 🛠 Usage Guide
 Open Image Directory: Click 1. Open Image Dir to select the folder containing your microscopic images (.jpg, .png, .tif).
@@ -55,9 +61,7 @@ Preview: Use the GUI to view overlays or select charts (Radar, Rose, Voronoi) fr
 <a name="中文说明"></a>
 
 🇨🇳 中文说明
-UniStoma (Stoma Analyzer Pro) 是一款基于深度学习的植物气孔表型高通量分析工具。它集成了 MMSegmentation 算法框架与 PyQt5 图形界面，旨在为研究人员提供精确的气孔与气孔开口（Pore）分割，以及全自动的形态学与空间分布分析。
-
-当前版本 (V17.7 Stable) 是修复了已知严重错误的稳定版本。
+UniStomaExtraction 是一款基于深度学习的植物气孔表型高通量分析工具。它集成了 MMSegmentation 算法框架与 PyQt5 图形界面，旨在为研究人员提供精确的气孔与气孔开口（Pore）分割，以及全自动的形态学与空间分布分析。
 
 ✨ 核心功能
 深度学习内核: 内置 PyTorch & OpenMMLab 核心组件，实现气孔与气孔开口的高精度分割。
@@ -85,9 +89,9 @@ Voronoi 图 (泰森多边形):用于分析气孔分布的均匀性。
 📥 下载与安装
 我们为 Windows 用户提供了打包好的可执行程序，无需配置 Python 环境即可直接使用。
 
-下载链接 (Google Drive): 👉 点击此处下载 UniStoma V17.7
+下载链接 (Google Drive): 👉[点击此处下载UniStomaExtraction](https://drive.google.com/file/d/1i7dFmPhitrp0wPbuXJToYyi1-qAx3-G2/view?usp=drive_link)
 
-注意: 下载包中已包含训练好的模型权重 (best_model.pth) 和配置文件，解压即用。
+注意: 下载包中已包含训练好的模型权重和配置文件，解压即用。
 
 🛠 使用指南
 导入图片: 点击界面左上角的 1. Open Image Dir 选择包含显微照片的文件夹。
@@ -107,3 +111,11 @@ Voronoi 图 (泰森多边形):用于分析气孔分布的均匀性。
 数据: 打开 batch_individual.xlsx (单气孔数据) 和 batch_summary.xlsx (单图统计汇总)。
 
 实时预览: 在主界面选择图片后，通过下拉菜单 (5. Visualization) 即可实时查看该图片的雷达图、玫瑰图或 Voronoi 图。
+
+
+⚠️ Citation / 引用
+If you use UniStoma in your research, please consider citing our work: (如果您在研究中使用了 UniStoma，请考虑引用我们的工作：)
+
+[Insert Citation Here if applicable, otherwise remove this section]
+
+Author: Bingxi Qin Contact: qinbx12345@gmail.com
