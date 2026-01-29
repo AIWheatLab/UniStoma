@@ -2,7 +2,7 @@
 
 # UniStomaExtraction: 高通量气孔表型分析工具
 
-[English](english) | [中文说明](中文说明)
+[English](#english) | [中文说明](#chinese)
 
 </div>
 
@@ -68,7 +68,7 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 ---
 
-<a name="中文说明"></a>
+<a name="chinese"></a>
 
 ## 中文说明
 
