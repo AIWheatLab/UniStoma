@@ -32,7 +32,6 @@
 <br>• **Radar/Rose Charts**: Multi-dimensional metric visualization and orientation distribution. |
 | **🖥️ Interactive GUI** | Visual validation, mask color customization, and instant chart preview. |
 
----
 
 ### 📥 Download & Installation
 
@@ -44,7 +43,6 @@ We provide a packaged executable for Windows users. No complex Python environmen
 <img src="[https://img.shields.io/badge/Download_UniStomaExtraction-(Google_Drive)-4285F4?style=for-the-badge&logo=google-drive&logoColor=white](https://www.google.com/search?q=https://img.shields.io/badge/Download_UniStoma_V17.7-(Google_Drive)-4285F4%3Fstyle%3Dfor-the-badge%26logo%3Dgoogle-drive%26logoColor%3Dwhite)" alt="Download Button" height="50">
 </a>
 
----
 
 ### 🛠 Usage Guide
 
@@ -62,9 +60,6 @@ We provide a packaged executable for Windows users. No complex Python environmen
 
 5. **👁️‍🗨️ Preview**: Use the GUI to view overlays or select charts (Radar, Rose, Voronoi) from the dropdown menu for the current image.
 
----
-
----
 
 <a name="chinese"></a>
 
